@@ -58,7 +58,8 @@ Other interesting options:
 ## Reports
 Robot Framework provides nice reports after tests are executed. Please check files in _results_ folder in this repo.  
 
-You can check a sample report here:
+You can check a sample report here:  
+![Sample report](https://github.com/mauriciokobren/rftap/blob/dev/results/report.png)
 
-And a detailed log execution here:
-
+And a detailed log execution here:  
+![Sample log](https://github.com/mauriciokobren/rftap/blob/dev/results/log.png)
