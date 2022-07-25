@@ -1,17 +1,16 @@
 # Robot Framework Test Automation Project (rftap)
 
 ## Introduction
-rftap is a simple test automation project implemented with Robot Framework and aplying page object model. 
-It uses SeleniumLibrary for browser automation.
-The application used as the base for the tests is Google website.
+rftap is a simple test automation project implemented with Robot Framework and aplying page object model.  
+It uses SeleniumLibrary for browser automation.  
+The application used as the base for the tests is Google website.  
 
 ## Requirements
-The following components must be installed in your machine to run the tests:
+The following components must be installed in your machine to run the tests:  
 
 **Python 3**
-This project was built using Python 3.10.5
-
-Check https://www.python.org/ to see the details based on your OS
+This project was built using Python 3.10.5  
+Check https://www.python.org/ to see the details based on your OS  
 
 
 **Robot Framework**
