@@ -8,25 +8,19 @@ The application used as the base for the tests is Google website.
 ## Requirements
 The following components must be installed in your machine to run the tests:  
 
-**Python 3**
+**Python 3**  
 This project was built using Python 3.10.5  
 Check https://www.python.org/ to see the details based on your OS  
 
+**Robot Framework**  
+Instalation using pip: ```pip install robotframework```  
+More details here: https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#installing-using-pip  
+This project was built using Robot Framework 5.0.1  
 
-**Robot Framework**
-Instalation using pip: ```pip install robotframework```
-
-More details here: https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#installing-using-pip
-
-This project was built using Robot Framework 5.0.1
-
-
-**SeleniumLibrary**
-Instalation using pip: ```pip install --upgrade robotframework-seleniumlibrary```
-
-More details here: https://github.com/robotframework/SeleniumLibrary/
-
-This project was built using Selenium Library 6.0.0
+**SeleniumLibrary**  
+Instalation using pip: ```pip install --upgrade robotframework-seleniumlibrary```  
+More details here: https://github.com/robotframework/SeleniumLibrary/  
+This project was built using Selenium Library 6.0.0  
 
 
 ## Structure
@@ -35,7 +29,6 @@ rftap is distributed in 3 folders:
 - _resources_: this folder contains the file _common.robot_ that has locators used in the test and keywords used when the test execution is starting and finishing. This file was created to decrease maintenance effort, since you can change parameters, like url of the tested application, in this file and it will take effect in other files
 - _tests_: this folder contains _tests.robot_ which has the tests properly saying. As Page Object Model pattern is followed, the test code is cleanner code much more easier to read. The file has 4 keywords (tests) and they are independent, so you can run only one if needed
 - _results_: this folder is used to store the output files (test report and logs) generated after test execution
-
 
 ## Robot Framework resources used
 In rftap the following resources offered by Robot Framework were used:
@@ -51,19 +44,19 @@ In rftap the following resources offered by Robot Framework were used:
 - Behavior Drive Development (BDD) expressing the test case with **_Given_ condition _When_ action occurs _Then_ result is expeted** pattern
 
 ## Running the tests
-From rftap folder: 
-To run all the test suites available in tests folder and save results in results folder:
-``` python -m robot -d results tests```
+From rftap folder:  
+To run all the test suites available in tests folder and save results in results folder:  
+``` python -m robot -d results tests```  
 
-To run a specific test suite available in tests folder and save results in results folder:
-``` python -m robot -d results "tests\Testing google search.robot" ```
+To run a specific test suite available in tests folder and save results in results folder:  
+``` python -m robot -d results "tests\Testing google search.robot" ```  
 
-Other interesting options:
-- To run only the tests identified by your_tag: ``` --include your_tag or -i your_tag ``` :
-- To run only a specific test case: ``` -t "Your Test Case" ``` 
+Other interesting options:  
+- To run only the tests identified by your_tag: ``` --include your_tag or -i your_tag ``` :  
+- To run only a specific test case: ``` -t "Your Test Case" ```   
 
 ## Reports
-Robot Framework provides nice reports after tests are executed. Please check files in _results_ folder in this repo.
+Robot Framework provides nice reports after tests are executed. Please check files in _results_ folder in this repo.  
 
 You can check a sample report here:
 
