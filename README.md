@@ -7,19 +7,28 @@ The application used as the base for the tests is Google website.
 
 ## Requirements
 The following components must be installed in your machine to run the tests:
+
 **Python 3**
 This project was built using Python 3.10.5
+
 Check https://www.python.org/ to see the details based on your OS
 
+
 **Robot Framework**
-Instalation using pip: _pip install robotframework_
+Instalation using pip: ```pip install robotframework```
+
 More details here: https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#installing-using-pip
+
 This project was built using Robot Framework 5.0.1
 
+
 **SeleniumLibrary**
-Instalation using pip: _pip install --upgrade robotframework-seleniumlibrary_
+Instalation using pip: ```pip install --upgrade robotframework-seleniumlibrary```
+
 More details here: https://github.com/robotframework/SeleniumLibrary/
+
 This project was built using Selenium Library 6.0.0
+
 
 ## Structure
 rftap is distributed in 3 folders:
