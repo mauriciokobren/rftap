@@ -40,7 +40,7 @@ In rftap the following resources offered by Robot Framework were used:
 - Documentation setting that allows you to add details about the test case
 - Tags in test case to classify tests like for example by the type of test (Positive test, Negative test) or the feature
 - Logging to provide additional information about test execution and allow analysis if needed 
-- Behavior Drive Development (BDD) expressing the test case with _Given_ condition _When_ action occurs _Then_ result is expeted pattern
+- Behavior Drive Development (BDD) expressing the test case with **_Given_ condition _When_ action occurs _Then_ result is expeted** pattern
 
 ## Running the tests
 From rftap folder: 
@@ -51,11 +51,13 @@ To run a specific test suite available in tests folder and save results in resul
 ``` python -m robot -d results "tests\Testing google search.robot" ```
 
 Other interesting options:
-To run only the tests identified by your_tag: ``` --include your_tag or -i your_tag ``` :
-To run only a specific test case: ``` -t "Your Test Case" ``` 
+- To run only the tests identified by your_tag: ``` --include your_tag or -i your_tag ``` :
+- To run only a specific test case: ``` -t "Your Test Case" ``` 
 
 ## Reports
-Robot Framework provides nice reports after tests are executed.
+Robot Framework provides nice reports after tests are executed. Please check files in _results_ folder in this repo.
+
 You can check a sample report here:
+
 And a detailed log execution here:
 
